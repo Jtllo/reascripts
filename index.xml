@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Jon Lloyd" commit="f0a84027a4ef7fa6c06907c2973ebc39a86bd4f3">
+<index version="1" name="Jon Lloyd" commit="e4b70994b1c898e992ecf4de0fb47e18f9b7ec4d">
   <category name="Importers">
-    <reapack name="jl_import_aaf.lua" type="script" desc="Import AAF (Pro Tools and Premiere Pro)">
+    <reapack name="jl_import_aaf.lua" type="script" desc="Import AAF">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
