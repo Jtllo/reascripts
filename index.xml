@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Jon Lloyd"/>
+<index version="1" name="Jon Lloyd" commit="f0a84027a4ef7fa6c06907c2973ebc39a86bd4f3">
+  <category name="Importers">
+    <reapack name="jl_import_aaf.lua" type="script" desc="Import AAF (Pro Tools and Premiere Pro)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 jl_import_aaf\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Imports an AAF file into the current project: tracks, clips at the AAF's own timecode, embedded or linked audio, fades and crossfades, clip and track gain, pan, and volume and pan automation.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Pure Lua; nothing else to install. Tested on Windows with REAPER 7.73, with AAFs from Pro Tools 25.12 and Premiere Pro 26.2.2.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Jon Lloyd" time="2026-09-29T21:01:41Z">
+        <changelog><![CDATA[1.0: first release.]]></changelog>
+        <source main="main">https://github.com/Jtllo/reascripts/raw/f0a84027a4ef7fa6c06907c2973ebc39a86bd4f3/Importers/jl_import_aaf.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 reascripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 REAPER scripts by Jon Lloyd ({\field{\*\fldinst{HYPERLINK "https://www.lloyd.work"}}{\fldrslt{\ul
+lloyd.work
+}}}
+), distributed through ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Install\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 In REAPER, choose {\i Extensions > ReaPack > Import repositories...} and paste:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/jtllo/reascripts/raw/main/index.xml\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Then use {\i Extensions > ReaPack > Browse packages} to install the scripts.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Scripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 | Script | Category | What it does | | --- | --- | --- | | {\f1 jl_import_aaf.lua} | Importers | Imports an AAF into the current project: tracks, clips at the AAF's own timecode, embedded or linked audio, fades and crossfades, clip and track gain, pan, and volume and pan automation. Pure Lua; nothing else to install. Tested on Windows with REAPER 7.73, with AAFs from Pro Tools 25.12 and Premiere Pro 26.2.2. |\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 License\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 MIT; see {\f1 LICENSE}.\par}
+}
+]]></description>
+  </metadata>
+</index>
