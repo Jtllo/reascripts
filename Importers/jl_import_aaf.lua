@@ -1,4 +1,4 @@
--- @description Import AAF (Pro Tools and Premiere Pro)
+-- @description Import AAF
 -- @author Jon Lloyd
 -- @version 1.0
 -- @license MIT
