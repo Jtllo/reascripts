@@ -1,6 +1,6 @@
 # reascripts
 
-REAPER scripts by Jon Lloyd, distributed through ReaPack.
+REAPER scripts by Jon Lloyd ([lloyd.work](https://www.lloyd.work)), distributed through ReaPack.
 
 ## Install
 
